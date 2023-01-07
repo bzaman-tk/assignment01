@@ -1,0 +1,274 @@
+/* Simple Css Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  border: 0;
+}
+ul {
+  list-style: none;
+}
+
+.btn.btn-primary {
+  display: inline-block;
+  background-color: #f15b22;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Tahoma;
+}
+
+.btn-primary:hover {
+  background-color: #474747;
+}
+
+.wrap {
+  width: 1140px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header Style ============================= */
+header.site_header {
+  background-color: #c8c8c8;
+  background-image: url('../images/banner/banner2.png');
+  background-size: cover;
+  padding: 120px 0;
+}
+
+.wrap.banner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  text-align: right;
+}
+
+.wrap.banner p {
+  max-width: 400px;
+  color: #474747;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.wrap.banner h1 {
+  font-size: 65px;
+  max-width: 600px;
+  margin-bottom: 20px;
+  font-family: Tahoma;
+}
+
+/* Failures Section Css ======================== */
+section.failures {
+  padding: 80px 0;
+}
+
+section.failures .wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+section.failures .wrap > div {
+  max-width: 49%;
+}
+
+.failures_txt {
+  padding-right: 100px;
+}
+
+.failures_txt h2 {
+  font-size: 30px;
+  font-family: Tahoma;
+}
+
+.failures_txt p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #474747;
+  margin: 20px 0;
+  max-width: 415px;
+}
+
+ul.failures_list {
+  color: #474747;
+  line-height: 1.5;
+  font-size: 18px;
+}
+ul.failures_list i {
+  color: #16d887;
+  margin-right: 10px;
+}
+
+/* My Plan Section css ============================ */
+
+section.my_plan {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+section.my_plan h2 {
+  font-size: 35px;
+  font-family: Tahoma;
+  margin-bottom: 80px;
+}
+
+.inner_plans {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.single_plan h3 {
+  font-size: 25px;
+  font-family: Tahoma;
+  margin: 14px 0;
+}
+
+.single_plan p {
+  font-size: 18px;
+  font-family: Tahoma;
+  color: #474747;
+}
+/* Call to action css =====================================  */
+section.cal_to_action .wrap {
+  /* text-align: center; */
+  background-image: url('../images/gradient2.png'), url('../images/watch.png');
+  padding: 50px 50px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn.btn-primary.btn-white {
+  background-color: white;
+  color: #f15b22;
+}
+
+.btn {
+  outline: 0;
+  border: 0;
+}
+
+section.cal_to_action {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+section.cal_to_action h2 {
+  font-size: 40px;
+  max-width: 500px;
+  color: #fff;
+  font-family: tahoma;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Footer css ====================================== */
+
+footer {
+  color: #fff;
+  background-color: #151414;
+  padding: 80px 0;
+}
+
+footer .wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.footer_text p {
+  max-width: 450px;
+  line-height: 1.5;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.footer_text h2 {
+  font-size: 35px;
+  font-family: Tahoma;
+}
+
+ul.social {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.newsletter h2 {
+  font-size: 28px;
+}
+
+.newsletter input[type='email'] {
+  width: 70%;
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  padding: 15px 15px;
+  background-color: #151414;
+  border: 1px solid #fff;
+  border-radius: 13px;
+}
+/* Extra Section Style for bonus Mark */
+section.my_skils {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.skils_wrap {
+  display: flex;
+  margin: 40px 0 0 0;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+section.my_skils h2 {
+  font-size: 35px;
+  font-family: Tahoma;
+  font-weight: normal;
+  margin: 0 0 15px 0;
+}
+
+section.my_skils p {
+  font-size: 20px;
+  color: #474747;
+  font-family: tahoma;
+  margin-bottom: 20px;
+}
+
+.single_skil {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+  max-width: 25%;
+}
+
+.single_skil i {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.single_skil h3 {
+  font-size: 25px;
+  font-family: tahoma;
+  font-weight: normal;
+  margin: 0 0 15px 0;
+}
